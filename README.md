@@ -1,17 +1,17 @@
-# MoyaiTEST | Version 0.8
+# MoyaiTEST | Version 0.9 Beta
 MoyaiTEST is a Discord Bot made in Python. It is the testing bot to our main bot, Moyai. Our testing bot will provide tests to newly added functions. Some functions may or may not work.
 
 # Future Expectations
-Our next update will be version 0.9. With the main release of version 0.9, we are wanting to add some functions to better support our users. You will see better moderation support, and better utility support. As of right now, our moderation functions are limited and a bit funky to execute. The plan is to create a better moderation utility. Our SQL functions are also funky to execute too. The functions themselves work, but they show very little output to what has been inputted.
+... to be updated
 
 # Current Time
-With version 0.8, we have rewrote practically all of Moyai, aside from the sql.py file and the music.py file. We have removed the info.py file and integrated the functions to the support.py file. We have organized miscellaneous functions in their correct categories. We've also integrated OpenAI's gpt-3 API onto Moyai. Making Moyai one of the smartest Discord Bots to hit the platform. As of right now, sql functions and moderation functions will need to be improved for better execution.
+With version 0.9, we are migrating our slash commands to become part of our GUI interface. We are trying to limit & reduce the amount of slash commands Moyai currently has. This makes the interaction more friendly for users. As of right now, only the "Help Manager" & the "Fun Manager" are part of our GUI interface. With the limited resources Discord.py 2.0 has to offer, we are trying to create the best known GUI interface we can. Down below, you will see the "Fun Manager" & "Help Manager". The commands stated below will not be altered. The title of category will be changed with the slash command that has to be executed to interact & execute our functions.
 
 # Commands | Example
 - COMMAND_IS_HERE: THE DEFINITION OF THE COMMAND
    - PARAMETER_IS_HERE: THE DEFINITION OF THE PARAMETER
 
-## Fun Commands 
+## Fun Manager | "/fun-manager" 
    - pong: outputs the bot client latency - Command Works
    
    - avatar: enlarges the pinged user's profile picture - Command Works
